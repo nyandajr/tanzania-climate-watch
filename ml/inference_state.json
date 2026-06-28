@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-06-28T13:49:45.614642+00:00",
+  "model": "Ridge Regression (sklearn)",
+  "features": [
+    "hour_sin",
+    "hour_cos",
+    "day_sin",
+    "day_cos",
+    "temperature",
+    "humidity",
+    "pressure",
+    "windspeed"
+  ],
+  "cities": [
+    {
+      "city": "Dar es Salaam",
+      "city_key": "dar_es_salaam",
+      "mae": null,
+      "data_points": 1,
+      "next_hour_prediction": null,
+      "model_type": "api_fallback"
+    },
+    {
+      "city": "Dodoma",
+      "city_key": "dodoma",
+      "mae": null,
+      "data_points": 1,
+      "next_hour_prediction": null,
+      "model_type": "api_fallback"
+    },
+    {
+      "city": "Arusha",
+      "city_key": "arusha",
+      "mae": null,
+      "data_points": 1,
+      "next_hour_prediction": null,
+      "model_type": "api_fallback"
+    },
+    {
+      "city": "Mwanza",
+      "city_key": "mwanza",
+      "mae": null,
+      "data_points": 1,
+      "next_hour_prediction": null,
+      "model_type": "api_fallback"
+    },
+    {
+      "city": "Zanzibar",
+      "city_key": "zanzibar",
+      "mae": null,
+      "data_points": 1,
+      "next_hour_prediction": null,
+      "model_type": "api_fallback"
+    }
+  ]
+}
