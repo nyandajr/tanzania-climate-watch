@@ -2,7 +2,7 @@
 
 Real-time weather monitoring and ML forecasting for 5 Tanzanian cities, updated automatically every 15 minutes via GitHub Actions.
 
-**[Live Dashboard →](https://YOUR_USERNAME.github.io/climate-pipeline)**
+**[Live Dashboard →](https://nyandajr.github.io/tanzania-climate-watch)**
 
 ---
 
@@ -73,4 +73,4 @@ python -m http.server 8080 --directory docs
 1. Go to repo **Settings → Pages**
 2. Source: **Deploy from a branch**
 3. Branch: `main` / folder: `/docs`
-4. Save — your dashboard will be live at `https://YOUR_USERNAME.github.io/climate-pipeline`
+4. Save — your dashboard will be live at `https://nyandajr.github.io/tanzania-climate-watch`
