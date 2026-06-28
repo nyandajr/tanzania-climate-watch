@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanzania Climate Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #161b22, #0d1117);
+      border-bottom: 1px solid #21262d;
+      padding: 18px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    header h1 { font-size: 1.4rem; color: #58a6ff; font-weight: 700; }
+    header p  { font-size: 0.8rem; color: #8b949e; }
+    .badge {
+      background: #1f6feb33;
+      border: 1px solid #1f6feb;
+      color: #58a6ff;
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+    .badge.green { background: #23863633; border-color: #238636; color: #3fb950; }
+
+    /* ── Layout ── */
+    main { max-width: 1360px; margin: 0 auto; padding: 24px 32px; }
+    section { margin-bottom: 36px; }
+    .section-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #58a6ff;
+      border-left: 3px solid #1f6feb;
+      padding-left: 10px;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    /* ── City cards ── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 10px;
+      padding: 18px 14px;
+      text-align: center;
+      transition: border-color .2s, transform .2s;
+    }
+    .card:hover { border-color: #58a6ff; transform: translateY(-2px); }
+    .card-icon  { font-size: 2.2rem; line-height: 1; }
+    .card-city  { font-size: 0.85rem; color: #8b949e; margin: 6px 0 2px; }
+    .card-temp  { font-size: 2rem; font-weight: 700; color: #3fb950; }
+    .card-desc  { font-size: 0.75rem; color: #6e7681; margin: 4px 0 10px; }
+    .card-meta  { display: flex; justify-content: space-around; font-size: 0.72rem; color: #8b949e; gap: 4px; }
+
+    /* ── Charts ── */
+    .chart-full  { background: #161b22; border: 1px solid #21262d; border-radius: 10px; padding: 20px; }
+    .chart-grid  { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .chart-box   { background: #161b22; border: 1px solid #21262d; border-radius: 10px; padding: 20px; }
+    .chart-title { font-size: 0.78rem; color: #8b949e; margin-bottom: 12px; }
+    canvas       { max-height: 280px; }
+
+    /* ── Model table ── */
+    .model-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+    .model-card {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .model-city  { font-size: 0.9rem; color: #c9d1d9; font-weight: 600; margin-bottom: 8px; }
+    .model-row   { display: flex; justify-content: space-between; font-size: 0.78rem; color: #8b949e; margin: 3px 0; }
+    .model-val   { color: #c9d1d9; }
+    .tag { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 0.7rem; }
+    .tag-ridge   { background: #1f6feb33; color: #58a6ff; }
+    .tag-fallback{ background: #6e768133; color: #8b949e; }
+
+    /* ── Anomaly table ── */
+    .anomaly-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 560px; }
+    th { background: #161b22; color: #8b949e; font-size: 0.75rem; text-align: left; padding: 10px 12px; border-bottom: 1px solid #21262d; }
+    td { padding: 9px 12px; font-size: 0.8rem; border-bottom: 1px solid #161b22; }
+    tr:hover td { background: #161b2244; }
+    .sev-high   { color: #f85149; }
+    .sev-medium { color: #e3b341; }
+    .no-data    { text-align: center; padding: 24px; color: #3fb950; }
+
+    /* ── Footer ── */
+    footer { text-align: center; padding: 20px; color: #484f58; font-size: 0.75rem; border-top: 1px solid #21262d; margin-top: 20px; }
+
+    @media (max-width: 760px) {
+      main { padding: 16px; }
+      .chart-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🌍 Tanzania Climate Dashboard</h1>
+    <p id="updated">Loading…</p>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <span class="badge green" id="status-badge">● Live</span>
+    <span class="badge" id="points-badge">– data points</span>
+  </div>
+</header>
+
+<main>
+  <!-- Current conditions -->
+  <section>
+    <div class="section-label">Current Conditions</div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <!-- 7-day forecast -->
+  <section>
+    <div class="section-label">7-Day Forecast</div>
+    <div class="chart-full">
+      <div class="chart-title">Temperature Max / Min per city (°C)</div>
+      <canvas id="forecastChart"></canvas>
+    </div>
+  </section>
+
+  <!-- History + MAE -->
+  <section>
+    <div class="section-label">Analytics</div>
+    <div class="chart-grid">
+      <div class="chart-box">
+        <div class="chart-title">30-Day Temperature History (°C)</div>
+        <canvas id="historyChart"></canvas>
+      </div>
+      <div class="chart-box">
+        <div class="chart-title">Model Accuracy — MAE (°C, lower = better)</div>
+        <canvas id="maeChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ML model summary -->
+  <section>
+    <div class="section-label">ML Model Status</div>
+    <div class="model-grid" id="modelCards"></div>
+  </section>
+
+  <!-- Anomaly log -->
+  <section>
+    <div class="section-label">Anomaly Log (Last 10)</div>
+    <div class="anomaly-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Time (UTC)</th><th>City</th><th>Field</th>
+            <th>Value</th><th>Type</th><th>Severity</th>
+          </tr>
+        </thead>
+        <tbody id="anomalyBody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>Tanzania Climate Prediction Pipeline — automated updates every 15 min via GitHub Actions</footer>
+
+<script>
+const CHART_DEFAULTS = {
+  plugins: {
+    legend: { labels: { color: "#8b949e", font: { size: 11 } } }
+  },
+  scales: {
+    x: {
+      ticks: { color: "#6e7681", maxTicksLimit: 7, font: { size: 10 } },
+      grid:  { color: "#21262d" }
+    },
+    y: {
+      ticks: { color: "#6e7681", font: { size: 10 } },
+      grid:  { color: "#21262d" }
+    }
+  }
+};
+
+function buildChart(id, type, labels, datasets, extraOpts = {}) {
+  return new Chart(document.getElementById(id), {
+    type,
+    data: { labels, datasets },
+    options: { ...CHART_DEFAULTS, ...extraOpts, responsive: true, maintainAspectRatio: true }
+  });
+}
+
+async function init() {
+  const res  = await fetch("./data.json?v=" + Date.now());
+  const data = await res.json();
+
+  // Header
+  document.getElementById("updated").textContent =
+    "Last updated: " + new Date(data.updated_at).toUTCString();
+  const pts = data.model_summary?.reduce((s, m) => s + (m.data_points || 0), 0) || 0;
+  document.getElementById("points-badge").textContent = pts.toLocaleString() + " data points";
+
+  // City cards
+  const cardContainer = document.getElementById("cards");
+  for (const c of (data.cards || [])) {
+    cardContainer.innerHTML += `
+      <div class="card">
+        <div class="card-icon">${c.icon}</div>
+        <div class="card-city">${c.city}</div>
+        <div class="card-temp">${c.temperature != null ? c.temperature + "°C" : "–"}</div>
+        <div class="card-desc">${c.description}</div>
+        <div class="card-meta">
+          <span>💧 ${c.humidity != null ? c.humidity + "%" : "–"}</span>
+          <span>💨 ${c.windspeed != null ? c.windspeed + " km/h" : "–"}</span>
+          <span>🔵 ${c.pressure != null ? c.pressure + " hPa" : "–"}</span>
+        </div>
+      </div>`;
+  }
+
+  // Forecast chart
+  if (data.forecast?.datasets?.length) {
+    buildChart("forecastChart", "line",
+      data.forecast.labels, data.forecast.datasets);
+  }
+
+  // History chart — each dataset has its own labels, align to shared labels
+  if (data.history?.datasets?.length) {
+    const sharedLabels = data.history.labels;
+    const aligned = data.history.datasets.map(ds => {
+      const map = {};
+      ds.labels.forEach((l, i) => { map[l] = ds.data[i]; });
+      return {
+        label:           ds.label,
+        data:            sharedLabels.map(l => map[l] ?? null),
+        borderColor:     ds.borderColor,
+        backgroundColor: "transparent",
+        tension:         0.3,
+        pointRadius:     1,
+        spanGaps:        true,
+      };
+    });
+    buildChart("historyChart", "line", sharedLabels, aligned);
+  }
+
+  // MAE chart
+  if (data.mae?.datasets?.length) {
+    buildChart("maeChart", "line",
+      data.mae.labels, data.mae.datasets, {
+        scales: {
+          ...CHART_DEFAULTS.scales,
+          y: { ...CHART_DEFAULTS.scales.y,
+            title: { display: true, text: "MAE (°C)", color: "#8b949e" }
+          }
+        }
+      });
+  }
+
+  // Model summary cards
+  const mc = document.getElementById("modelCards");
+  for (const m of (data.model_summary || [])) {
+    const tagClass = m.model_type === "ridge_regression" ? "tag-ridge" : "tag-fallback";
+    const tagLabel = m.model_type === "ridge_regression" ? "Ridge ML" : "Warming up…";
+    mc.innerHTML += `
+      <div class="model-card">
+        <div class="model-city">${m.city} <span class="tag ${tagClass}">${tagLabel}</span></div>
+        <div class="model-row"><span>Data points</span><span class="model-val">${m.data_points}</span></div>
+        <div class="model-row"><span>MAE</span><span class="model-val">${m.mae != null ? m.mae.toFixed(2) + "°C" : "–"}</span></div>
+        <div class="model-row"><span>Next-hour forecast</span><span class="model-val">${m.next_pred != null ? m.next_pred.toFixed(1) + "°C" : "–"}</span></div>
+      </div>`;
+  }
+
+  // Anomaly table
+  const tbody = document.getElementById("anomalyBody");
+  const anoms = data.anomalies || [];
+  if (!anoms.length) {
+    tbody.innerHTML = `<tr><td colspan="6" class="no-data">✅ No anomalies detected</td></tr>`;
+  } else {
+    for (const a of anoms) {
+      const cls = a.severity === "high" ? "sev-high" : "sev-medium";
+      tbody.innerHTML += `
+        <tr class="${cls}">
+          <td>${(a.timestamp||"").slice(0,16)}</td>
+          <td>${a.city||""}</td>
+          <td>${a.field||""}</td>
+          <td>${a.value||""}</td>
+          <td>${a.type||""}</td>
+          <td>${(a.severity||"").toUpperCase()}</td>
+        </tr>`;
+    }
+  }
+}
+
+init().catch(err => {
+  document.getElementById("updated").textContent = "Error loading data — " + err.message;
+});
+</script>
+</body>
+</html>
