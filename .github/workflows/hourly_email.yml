@@ -43,7 +43,14 @@ jobs:
             if [ "$CREATED" -ge "$ONE_HOUR_AGO" ]; then
               CONCLUSION=$(echo "$run" | python3 -c "import sys,json; print(json.load(sys.stdin).get('conclusion','unknown'))")
               TITLE=$(echo "$run"     | python3 -c "import sys,json; print(json.load(sys.stdin).get('displayTitle','')[:80])")
-              TIME=$(echo "$run"      | python3 -c "import sys,json; print(json.load(sys.stdin).get('createdAt','')[:16])")
+              TIME=$(echo "$run" | python3 -c "
+          import sys, json
+          from datetime import datetime, timezone, timedelta
+          data = json.load(sys.stdin)
+          dt = datetime.fromisoformat(data['createdAt'].replace('Z','+00:00'))
+          eat = dt + timedelta(hours=3)
+          print(eat.strftime('%Y-%m-%d %H:%M'))
+          ")
               URL=$(echo "$run"       | python3 -c "import sys,json; print(json.load(sys.stdin).get('url',''))")
               if [ "$CONCLUSION" = "success" ]; then
                 SUCCESS=$(( SUCCESS + 1 ))
@@ -52,7 +59,7 @@ jobs:
                 FAILURE=$(( FAILURE + 1 ))
                 ICON="❌"
               fi
-              ROWS="${ROWS}<tr><td>${ICON} ${CONCLUSION}</td><td>${TIME} UTC</td><td>${TITLE}</td></tr>"
+              ROWS="${ROWS}<tr><td>${ICON} ${CONCLUSION}</td><td>${TIME} EAT</td><td>${TITLE}</td></tr>"
             fi
           done < <(echo "$RUNS" | python3 -c "import sys,json; [print(json.dumps(r)) for r in json.load(sys.stdin)]")
 
@@ -65,7 +72,7 @@ jobs:
             STATUS_TEXT="✅ All runs succeeded"
           fi
 
-          HOUR=$(date -u +"%Y-%m-%d %H:00 UTC")
+          HOUR=$(TZ='Africa/Dar_es_Salaam' date +"%Y-%m-%d %H:00 EAT")
 
           BODY="<!DOCTYPE html><html><body style='font-family:sans-serif;background:#0d1117;color:#c9d1d9;padding:24px'>
           <h2 style='color:#58a6ff'>🌍 Tanzania Climate Pipeline — Hourly Summary</h2>
