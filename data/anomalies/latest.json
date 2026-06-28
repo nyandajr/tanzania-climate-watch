@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "timestamp": "2026-06-28T19:15:43.327993+00:00",
+    "city": "Dodoma",
+    "city_key": "dodoma",
+    "field": "humidity",
+    "value": 37.0,
+    "type": "statistical_anomaly",
+    "detail": "humidity=37.0 z=2.94 (\u03bc=24.1 \u03c3=4.4)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-06-28T19:15:43.327993+00:00",
+    "city": "Mwanza",
+    "city_key": "mwanza",
+    "field": "humidity",
+    "value": 60.0,
+    "type": "statistical_anomaly",
+    "detail": "humidity=60.0 z=3.02 (\u03bc=34.0 \u03c3=8.6)",
+    "severity": "medium"
+  }
+]
