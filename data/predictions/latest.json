@@ -2,11 +2,11 @@
   {
     "city_key": "dar_es_salaam",
     "city": "Dar es Salaam",
-    "predicted_at": "2026-07-03T08:28:32.786424+00:00",
+    "predicted_at": "2026-07-03T11:11:38.213765+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.9500252596317632,
-    "data_points": 106,
-    "next_hour_prediction": 28.70489739989748,
+    "mae": 0.9343376296438411,
+    "data_points": 107,
+    "next_hour_prediction": 28.315227640305103,
     "forecast_7day": {
       "dates": [
         "2026-07-03",
@@ -36,33 +36,33 @@
         21.9
       ],
       "precipitation": [
-        1.0,
-        0.3,
+        0.5,
         0.2,
-        2.1,
-        2.1,
-        11.4,
+        0.3,
+        0.8,
+        2.7,
+        3.0,
         1.8
       ],
       "windspeed_max": [
-        15.7,
-        16.3,
-        18.3,
-        17.6,
-        16.8,
+        16.2,
+        16.9,
+        17.9,
+        19.0,
         16.7,
-        17.0
+        16.8,
+        19.0
       ]
     }
   },
   {
     "city_key": "dodoma",
     "city": "Dodoma",
-    "predicted_at": "2026-07-03T08:28:32.788806+00:00",
+    "predicted_at": "2026-07-03T11:11:38.216382+00:00",
     "model_type": "ridge_regression",
-    "mae": 1.2934236779876682,
-    "data_points": 106,
-    "next_hour_prediction": 25.96738708707613,
+    "mae": 1.3088413704847686,
+    "data_points": 107,
+    "next_hour_prediction": 27.563576691306366,
     "forecast_7day": {
       "dates": [
         "2026-07-03",
@@ -101,24 +101,24 @@
         0.0
       ],
       "windspeed_max": [
-        25.8,
-        24.7,
-        27.8,
-        25.5,
-        24.9,
-        26.1,
-        25.3
+        26.0,
+        26.7,
+        28.4,
+        25.9,
+        23.5,
+        25.3,
+        26.3
       ]
     }
   },
   {
     "city_key": "arusha",
     "city": "Arusha",
-    "predicted_at": "2026-07-03T08:28:32.791031+00:00",
+    "predicted_at": "2026-07-03T11:11:38.218946+00:00",
     "model_type": "ridge_regression",
-    "mae": 1.0438704840421957,
-    "data_points": 106,
-    "next_hour_prediction": 20.17581863371624,
+    "mae": 1.142975524144085,
+    "data_points": 107,
+    "next_hour_prediction": 22.377670634330318,
     "forecast_7day": {
       "dates": [
         "2026-07-03",
@@ -149,32 +149,32 @@
       ],
       "precipitation": [
         0.0,
-        0.0,
-        0.9,
+        0.1,
+        0.4,
         0.2,
-        3.3,
-        15.6,
-        4.4
+        3.1,
+        11.5,
+        3.1
       ],
       "windspeed_max": [
         18.2,
+        18.2,
+        18.6,
+        20.4,
+        19.9,
         17.5,
-        20.1,
-        20.0,
-        20.2,
-        15.7,
-        15.5
+        14.6
       ]
     }
   },
   {
     "city_key": "mwanza",
     "city": "Mwanza",
-    "predicted_at": "2026-07-03T08:28:32.793234+00:00",
+    "predicted_at": "2026-07-03T11:11:38.221415+00:00",
     "model_type": "ridge_regression",
-    "mae": 1.0934212834429358,
-    "data_points": 106,
-    "next_hour_prediction": 28.487698486176296,
+    "mae": 1.0533703848238798,
+    "data_points": 107,
+    "next_hour_prediction": 28.970045836100294,
     "forecast_7day": {
       "dates": [
         "2026-07-03",
@@ -213,24 +213,24 @@
         0.0
       ],
       "windspeed_max": [
-        12.2,
-        17.8,
-        19.4,
-        18.2,
-        21.8,
-        20.7,
-        18.1
+        15.3,
+        18.6,
+        18.3,
+        18.3,
+        20.1,
+        19.6,
+        18.9
       ]
     }
   },
   {
     "city_key": "zanzibar",
     "city": "Zanzibar",
-    "predicted_at": "2026-07-03T08:28:32.795422+00:00",
+    "predicted_at": "2026-07-03T11:11:38.223899+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.6889953981086331,
-    "data_points": 106,
-    "next_hour_prediction": 26.256290616861758,
+    "mae": 0.6960278519736154,
+    "data_points": 107,
+    "next_hour_prediction": 26.63244231298219,
     "forecast_7day": {
       "dates": [
         "2026-07-03",
@@ -260,22 +260,22 @@
         22.8
       ],
       "precipitation": [
-        2.3,
-        2.4,
-        0.7,
-        0.6,
-        3.9,
-        14.7,
-        1.8
+        1.7,
+        2.5,
+        0.5,
+        1.1,
+        4.6,
+        6.2,
+        2.4
       ],
       "windspeed_max": [
-        18.5,
-        20.7,
-        23.6,
-        23.1,
-        23.4,
-        22.7,
-        22.7
+        19.2,
+        20.9,
+        24.3,
+        24.2,
+        23.0,
+        18.8,
+        21.9
       ]
     }
   }
