@@ -1,9 +1,11 @@
 name: Climate Pipeline
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
-  workflow_dispatch:
+  # schedule disabled 2026-07-07: migrated to a VM-based replacement
+  # (vm_automation/run_and_push.py) -- GitHub Actions was measured at ~21%
+  # real delivery on this 15-min cadence. To revert: uncomment the line below.
+  # - cron: "*/15 * * * *"
+  workflow_dispatch:  # Manual trigger only, while the VM version is being tested
 
 permissions:
   contents: write
