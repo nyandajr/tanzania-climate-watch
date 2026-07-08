@@ -1,12 +1,42 @@
 [
   {
-    "timestamp": "2026-07-08T15:50:09.397714+00:00",
+    "timestamp": "2026-07-08T16:05:09.263551+00:00",
+    "city": "Dar es Salaam",
+    "city_key": "dar_es_salaam",
+    "field": "pressure",
+    "value": 1016.7,
+    "type": "statistical_anomaly",
+    "detail": "pressure=1016.7 z=3.27 (\u03bc=1020.1 \u03c3=1.1)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-08T16:05:09.263551+00:00",
+    "city": "Arusha",
+    "city_key": "arusha",
+    "field": "pressure",
+    "value": 1017.8,
+    "type": "statistical_anomaly",
+    "detail": "pressure=1017.8 z=2.56 (\u03bc=1022.3 \u03c3=1.7)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-08T16:05:09.263551+00:00",
     "city": "Mwanza",
     "city_key": "mwanza",
     "field": "windspeed",
-    "value": 3.2,
+    "value": 2.6,
     "type": "statistical_anomaly",
-    "detail": "windspeed=3.2 z=2.50 (\u03bc=13.5 \u03c3=4.1)",
+    "detail": "windspeed=2.6 z=2.55 (\u03bc=13.4 \u03c3=4.2)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-08T16:05:09.263551+00:00",
+    "city": "Zanzibar",
+    "city_key": "zanzibar",
+    "field": "pressure",
+    "value": 1016.8,
+    "type": "statistical_anomaly",
+    "detail": "pressure=1016.8 z=3.02 (\u03bc=1019.8 \u03c3=1.0)",
     "severity": "medium"
   }
 ]
