@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T01:35:08.488765+00:00",
+  "generated_at": "2026-07-09T01:50:09.499792+00:00",
   "model": "Ridge Regression (sklearn)",
   "features": [
     "hour_sin",
@@ -31,25 +31,25 @@
     {
       "city": "Arusha",
       "city_key": "arusha",
-      "mae": 0.6613351854454901,
-      "data_points": 306,
-      "next_hour_prediction": 14.747216749571606,
+      "mae": 0.6515198316548917,
+      "data_points": 307,
+      "next_hour_prediction": 14.693009252980275,
       "model_type": "ridge_regression"
     },
     {
       "city": "Mwanza",
       "city_key": "mwanza",
-      "mae": 0.7568908874652734,
-      "data_points": 306,
-      "next_hour_prediction": 18.786701542832805,
+      "mae": 0.7465103643959495,
+      "data_points": 307,
+      "next_hour_prediction": 18.7165240712893,
       "model_type": "ridge_regression"
     },
     {
       "city": "Zanzibar",
       "city_key": "zanzibar",
-      "mae": 0.5045464214737969,
-      "data_points": 306,
-      "next_hour_prediction": 22.735858379942915,
+      "mae": 0.5006689246767532,
+      "data_points": 307,
+      "next_hour_prediction": 22.650380218483583,
       "model_type": "ridge_regression"
     }
   ]
