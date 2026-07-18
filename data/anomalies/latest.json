@@ -1,12 +1,22 @@
 [
   {
-    "timestamp": "2026-07-18T20:50:10.260018+00:00",
+    "timestamp": "2026-07-18T21:05:08.500217+00:00",
+    "city": "Mwanza",
+    "city_key": "mwanza",
+    "field": "humidity",
+    "value": 84.0,
+    "type": "statistical_anomaly",
+    "detail": "humidity=84.0 z=2.93 (\u03bc=53.6 \u03c3=10.4)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-18T21:05:08.500217+00:00",
     "city": "Mwanza",
     "city_key": "mwanza",
     "field": "windspeed",
-    "value": 3.0,
+    "value": 2.7,
     "type": "statistical_anomaly",
-    "detail": "windspeed=3.0 z=2.70 (\u03bc=12.3 \u03c3=3.4)",
+    "detail": "windspeed=2.7 z=2.66 (\u03bc=12.2 \u03c3=3.6)",
     "severity": "medium"
   }
 ]
