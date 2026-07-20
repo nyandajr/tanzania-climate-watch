@@ -2,11 +2,11 @@
   {
     "city_key": "dar_es_salaam",
     "city": "Dar es Salaam",
-    "predicted_at": "2026-07-20T08:35:09.393131+00:00",
+    "predicted_at": "2026-07-20T08:50:39.371301+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.17504923534132935,
-    "data_points": 1338,
-    "next_hour_prediction": 27.66508849697502,
+    "mae": 0.17536358497928034,
+    "data_points": 1339,
+    "next_hour_prediction": 27.754970781552757,
     "forecast_7day": {
       "dates": [
         "2026-07-20",
@@ -58,11 +58,11 @@
   {
     "city_key": "dodoma",
     "city": "Dodoma",
-    "predicted_at": "2026-07-20T08:35:09.475690+00:00",
+    "predicted_at": "2026-07-20T08:50:39.395540+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.25633498933515186,
-    "data_points": 1384,
-    "next_hour_prediction": 25.354201850457265,
+    "mae": 0.253894240371858,
+    "data_points": 1385,
+    "next_hour_prediction": 25.805692344623463,
     "forecast_7day": {
       "dates": [
         "2026-07-20",
@@ -114,11 +114,11 @@
   {
     "city_key": "arusha",
     "city": "Arusha",
-    "predicted_at": "2026-07-20T08:35:09.500911+00:00",
+    "predicted_at": "2026-07-20T08:50:39.467827+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.18414106797336124,
-    "data_points": 1389,
-    "next_hour_prediction": 20.370756763116514,
+    "mae": 0.18471694555319318,
+    "data_points": 1390,
+    "next_hour_prediction": 20.73486984271932,
     "forecast_7day": {
       "dates": [
         "2026-07-20",
@@ -170,11 +170,11 @@
   {
     "city_key": "mwanza",
     "city": "Mwanza",
-    "predicted_at": "2026-07-20T08:35:09.580185+00:00",
+    "predicted_at": "2026-07-20T08:50:39.493782+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.22325805802583576,
-    "data_points": 1389,
-    "next_hour_prediction": 27.032485217502295,
+    "mae": 0.2218169359119073,
+    "data_points": 1390,
+    "next_hour_prediction": 27.30952233523502,
     "forecast_7day": {
       "dates": [
         "2026-07-20",
@@ -226,57 +226,11 @@
   {
     "city_key": "zanzibar",
     "city": "Zanzibar",
-    "predicted_at": "2026-07-20T08:35:09.606672+00:00",
+    "predicted_at": "2026-07-20T08:50:39.567659+00:00",
     "model_type": "ridge_regression",
     "mae": 0.1325443965240362,
     "data_points": 1387,
     "next_hour_prediction": 26.212670932848656,
-    "forecast_7day": {
-      "dates": [
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26"
-      ],
-      "temp_max": [
-        27.8,
-        28.5,
-        27.4,
-        27.5,
-        28.1,
-        28.3,
-        27.4
-      ],
-      "temp_min": [
-        21.6,
-        21.4,
-        21.8,
-        21.8,
-        22.3,
-        23.7,
-        23.0
-      ],
-      "precipitation": [
-        1.1,
-        1.8,
-        2.3,
-        0.9,
-        0.6,
-        0.9,
-        3.0
-      ],
-      "windspeed_max": [
-        14.4,
-        11.9,
-        18.6,
-        20.4,
-        19.5,
-        24.2,
-        28.0
-      ]
-    }
+    "forecast_7day": {}
   }
 ]
