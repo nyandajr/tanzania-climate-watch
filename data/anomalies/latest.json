@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "timestamp": "2026-07-22T09:05:09.063914+00:00",
+    "city": "Dar es Salaam",
+    "city_key": "dar_es_salaam",
+    "field": "pressure",
+    "value": 1019.0,
+    "type": "statistical_anomaly",
+    "detail": "pressure=1019.0 z=2.78 (\u03bc=1016.5 \u03c3=0.9)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-07-22T09:05:09.063914+00:00",
+    "city": "Zanzibar",
+    "city_key": "zanzibar",
+    "field": "pressure",
+    "value": 1018.8,
+    "type": "statistical_anomaly",
+    "detail": "pressure=1018.8 z=2.67 (\u03bc=1016.4 \u03c3=0.9)",
+    "severity": "medium"
+  }
+]
