@@ -2,11 +2,11 @@
   {
     "city_key": "dar_es_salaam",
     "city": "Dar es Salaam",
-    "predicted_at": "2026-07-31T18:35:11.815638+00:00",
+    "predicted_at": "2026-07-31T18:50:09.575178+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.1334204311140387,
-    "data_points": 2380,
-    "next_hour_prediction": 22.83244688219614,
+    "mae": 0.13309427826899525,
+    "data_points": 2381,
+    "next_hour_prediction": 22.73038995505188,
     "forecast_7day": {
       "dates": [
         "2026-07-31",
@@ -36,13 +36,13 @@
         21.5
       ],
       "precipitation": [
-        1.3,
+        1.1,
         0.2,
-        1.4,
-        0.6,
+        0.7,
+        0.2,
         0.0,
-        1.8,
-        0.6
+        0.9,
+        1.8
       ],
       "windspeed_max": [
         16.1,
@@ -58,11 +58,11 @@
   {
     "city_key": "dodoma",
     "city": "Dodoma",
-    "predicted_at": "2026-07-31T18:35:11.896428+00:00",
+    "predicted_at": "2026-07-31T18:50:09.669622+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.1537954226316953,
-    "data_points": 2470,
-    "next_hour_prediction": 18.457945399208388,
+    "mae": 0.15376581035441156,
+    "data_points": 2471,
+    "next_hour_prediction": 18.284435196938055,
     "forecast_7day": {
       "dates": [
         "2026-07-31",
@@ -114,11 +114,11 @@
   {
     "city_key": "arusha",
     "city": "Arusha",
-    "predicted_at": "2026-07-31T18:35:11.988589+00:00",
+    "predicted_at": "2026-07-31T18:50:09.767918+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.1490203423801034,
-    "data_points": 2483,
-    "next_hour_prediction": 17.800173384703516,
+    "mae": 0.14919093157353383,
+    "data_points": 2484,
+    "next_hour_prediction": 17.91456030967681,
     "forecast_7day": {
       "dates": [
         "2026-07-31",
@@ -152,7 +152,7 @@
         0.2,
         0.0,
         0.2,
-        0.3,
+        0.4,
         0.0,
         0.0
       ],
@@ -170,11 +170,11 @@
   {
     "city_key": "mwanza",
     "city": "Mwanza",
-    "predicted_at": "2026-07-31T18:35:12.163057+00:00",
+    "predicted_at": "2026-07-31T18:50:09.891902+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.18721480372332414,
-    "data_points": 2485,
-    "next_hour_prediction": 22.57683668347286,
+    "mae": 0.18728435460393325,
+    "data_points": 2486,
+    "next_hour_prediction": 22.516219590528415,
     "forecast_7day": {
       "dates": [
         "2026-07-31",
@@ -207,7 +207,7 @@
         0.0,
         0.0,
         0.0,
-        1.8,
+        0.9,
         0.0,
         0.0,
         0.0
@@ -226,11 +226,11 @@
   {
     "city_key": "zanzibar",
     "city": "Zanzibar",
-    "predicted_at": "2026-07-31T18:35:12.258852+00:00",
+    "predicted_at": "2026-07-31T18:50:09.980231+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.0982809860371969,
-    "data_points": 2481,
-    "next_hour_prediction": 23.186275144674877,
+    "mae": 0.09811085297741406,
+    "data_points": 2482,
+    "next_hour_prediction": 23.071936119013174,
     "forecast_7day": {
       "dates": [
         "2026-07-31",
@@ -260,13 +260,13 @@
         22.7
       ],
       "precipitation": [
-        1.9,
-        1.8,
-        1.3,
-        1.7,
-        2.1,
+        2.0,
+        2.0,
         1.2,
-        2.1
+        1.2,
+        0.9,
+        2.4,
+        0.9
       ],
       "windspeed_max": [
         21.9,
