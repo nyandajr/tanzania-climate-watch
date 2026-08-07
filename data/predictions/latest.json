@@ -2,11 +2,11 @@
   {
     "city_key": "dar_es_salaam",
     "city": "Dar es Salaam",
-    "predicted_at": "2026-08-07T12:05:09.958981+00:00",
+    "predicted_at": "2026-08-07T12:20:09.513284+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.12247125101234953,
-    "data_points": 3018,
-    "next_hour_prediction": 28.838782483910872,
+    "mae": 0.1217613721557458,
+    "data_points": 3019,
+    "next_hour_prediction": 28.736818524711676,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -36,21 +36,21 @@
         22.1
       ],
       "precipitation": [
-        1.1,
-        1.4,
-        0.5,
+        0.9,
+        3.3,
+        1.0,
         2.0,
-        1.2,
-        0.6,
+        2.1,
+        1.5,
         0.6
       ],
       "windspeed_max": [
-        17.0,
-        17.0,
-        18.2,
-        15.4,
-        13.9,
-        15.3,
+        16.8,
+        17.1,
+        16.4,
+        14.5,
+        13.3,
+        15.1,
         15.9
       ]
     }
@@ -58,11 +58,11 @@
   {
     "city_key": "dodoma",
     "city": "Dodoma",
-    "predicted_at": "2026-08-07T12:05:10.097171+00:00",
+    "predicted_at": "2026-08-07T12:20:09.680679+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.16754055034694923,
-    "data_points": 3116,
-    "next_hour_prediction": 26.95250141990524,
+    "mae": 0.16735619276611316,
+    "data_points": 3117,
+    "next_hour_prediction": 26.96617783161028,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -101,12 +101,12 @@
         0.0
       ],
       "windspeed_max": [
-        28.0,
-        24.9,
-        26.2,
+        27.7,
+        24.5,
+        25.6,
         25.7,
-        25.0,
-        26.3,
+        25.4,
+        26.6,
         25.8
       ]
     }
@@ -114,11 +114,11 @@
   {
     "city_key": "arusha",
     "city": "Arusha",
-    "predicted_at": "2026-08-07T12:05:10.198643+00:00",
+    "predicted_at": "2026-08-07T12:20:09.781915+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.13925881122506256,
-    "data_points": 3129,
-    "next_hour_prediction": 24.253627191393747,
+    "mae": 0.1395911027420677,
+    "data_points": 3130,
+    "next_hour_prediction": 24.346566322592373,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -149,20 +149,20 @@
       ],
       "precipitation": [
         0.0,
-        0.8,
-        1.9,
         0.2,
+        3.3,
         0.1,
-        0.0,
-        0.0
+        1.4,
+        0.3,
+        0.3
       ],
       "windspeed_max": [
-        20.6,
-        20.7,
+        20.9,
+        20.9,
         20.5,
         19.7,
-        18.6,
-        19.4,
+        18.4,
+        19.5,
         19.6
       ]
     }
@@ -170,11 +170,11 @@
   {
     "city_key": "mwanza",
     "city": "Mwanza",
-    "predicted_at": "2026-08-07T12:05:10.299369+00:00",
+    "predicted_at": "2026-08-07T12:20:09.887684+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.1714914394377374,
-    "data_points": 3129,
-    "next_hour_prediction": 27.627106291127213,
+    "mae": 0.1714301427675898,
+    "data_points": 3130,
+    "next_hour_prediction": 27.630972839552896,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -204,7 +204,7 @@
         21.3
       ],
       "precipitation": [
-        0.0,
+        0.1,
         0.0,
         0.0,
         0.0,
@@ -214,23 +214,23 @@
       ],
       "windspeed_max": [
         20.5,
-        20.1,
-        19.3,
-        20.1,
-        17.6,
-        18.3,
-        19.2
+        20.0,
+        19.7,
+        20.5,
+        18.4,
+        19.1,
+        18.9
       ]
     }
   },
   {
     "city_key": "zanzibar",
     "city": "Zanzibar",
-    "predicted_at": "2026-08-07T12:05:10.400667+00:00",
+    "predicted_at": "2026-08-07T12:20:09.994266+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.09765627245077102,
-    "data_points": 3126,
-    "next_hour_prediction": 28.238170729011017,
+    "mae": 0.09759904081904291,
+    "data_points": 3127,
+    "next_hour_prediction": 28.2380202112703,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -260,21 +260,21 @@
         22.5
       ],
       "precipitation": [
-        1.1,
-        1.6,
-        1.1,
-        3.0,
-        2.4,
+        1.3,
+        5.3,
+        0.7,
+        2.7,
         1.2,
-        0.6
+        0.3,
+        1.2
       ],
       "windspeed_max": [
-        20.6,
-        21.3,
-        22.3,
-        19.5,
-        17.1,
-        19.1,
+        20.7,
+        20.2,
+        20.4,
+        17.0,
+        15.7,
+        18.5,
         19.1
       ]
     }
