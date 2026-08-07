@@ -2,11 +2,11 @@
   {
     "city_key": "dar_es_salaam",
     "city": "Dar es Salaam",
-    "predicted_at": "2026-08-07T00:20:11.620952+00:00",
+    "predicted_at": "2026-08-07T00:35:08.970272+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.11922960535707573,
-    "data_points": 2971,
-    "next_hour_prediction": 21.74306858983301,
+    "mae": 0.11926967087720335,
+    "data_points": 2972,
+    "next_hour_prediction": 21.733015289326975,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -36,21 +36,21 @@
         22.1
       ],
       "precipitation": [
-        1.6,
-        2.2,
-        1.7,
-        1.0,
-        0.6,
-        0.3,
+        1.1,
+        1.4,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
         0.6
       ],
       "windspeed_max": [
-        16.7,
-        17.8,
-        18.7,
         16.0,
-        13.1,
-        15.8,
+        18.8,
+        17.9,
+        16.7,
+        13.6,
+        17.2,
         15.0
       ]
     }
@@ -58,11 +58,11 @@
   {
     "city_key": "dodoma",
     "city": "Dodoma",
-    "predicted_at": "2026-08-07T00:20:11.770160+00:00",
+    "predicted_at": "2026-08-07T00:35:09.102933+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.16182038996300527,
-    "data_points": 3069,
-    "next_hour_prediction": 15.910125392454749,
+    "mae": 0.161361943137438,
+    "data_points": 3070,
+    "next_hour_prediction": 15.761765749074595,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -94,19 +94,19 @@
       "precipitation": [
         0.0,
         0.0,
-        0.1,
+        0.0,
         0.0,
         0.0,
         0.0,
         0.0
       ],
       "windspeed_max": [
-        27.2,
-        24.8,
-        25.7,
-        25.4,
-        26.5,
-        26.6,
+        28.8,
+        25.0,
+        26.1,
+        26.1,
+        24.9,
+        27.0,
         24.8
       ]
     }
@@ -114,11 +114,11 @@
   {
     "city_key": "arusha",
     "city": "Arusha",
-    "predicted_at": "2026-08-07T00:20:11.872100+00:00",
+    "predicted_at": "2026-08-07T00:35:09.200154+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.14322563290011678,
-    "data_points": 3082,
-    "next_hour_prediction": 14.347490626694924,
+    "mae": 0.14326778453827427,
+    "data_points": 3083,
+    "next_hour_prediction": 14.22592437239193,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -148,21 +148,21 @@
         14.9
       ],
       "precipitation": [
-        0.1,
         0.0,
-        0.8,
         0.0,
-        0.9,
+        2.5,
+        0.2,
+        0.4,
         0.0,
         0.0
       ],
       "windspeed_max": [
-        20.7,
+        19.8,
         20.6,
-        17.8,
-        21.3,
-        17.8,
-        18.9,
+        18.6,
+        20.8,
+        17.1,
+        18.7,
         18.3
       ]
     }
@@ -170,11 +170,11 @@
   {
     "city_key": "mwanza",
     "city": "Mwanza",
-    "predicted_at": "2026-08-07T00:20:11.970060+00:00",
+    "predicted_at": "2026-08-07T00:35:09.303882+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.16749690278773335,
-    "data_points": 3082,
-    "next_hour_prediction": 20.178703372103634,
+    "mae": 0.16754702353399986,
+    "data_points": 3083,
+    "next_hour_prediction": 20.085109136229903,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -204,7 +204,7 @@
         19.9
       ],
       "precipitation": [
-        0.1,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -213,11 +213,11 @@
         0.0
       ],
       "windspeed_max": [
-        18.0,
-        20.3,
-        22.1,
-        19.9,
-        18.1,
+        20.5,
+        20.7,
+        21.3,
+        19.4,
+        17.6,
         22.3,
         19.9
       ]
@@ -226,11 +226,11 @@
   {
     "city_key": "zanzibar",
     "city": "Zanzibar",
-    "predicted_at": "2026-08-07T00:20:12.071010+00:00",
+    "predicted_at": "2026-08-07T00:35:09.410554+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.09349137104221242,
-    "data_points": 3079,
-    "next_hour_prediction": 23.09271345540912,
+    "mae": 0.09321518677268598,
+    "data_points": 3080,
+    "next_hour_prediction": 23.179936808405646,
     "forecast_7day": {
       "dates": [
         "2026-08-07",
@@ -260,21 +260,21 @@
         22.8
       ],
       "precipitation": [
-        1.7,
-        3.6,
+        1.8,
+        3.2,
+        2.5,
+        2.6,
+        2.1,
         0.9,
-        1.8,
-        1.8,
-        0.3,
         1.8
       ],
       "windspeed_max": [
-        22.4,
-        21.0,
-        20.4,
-        16.0,
+        21.6,
+        21.2,
+        19.9,
+        16.8,
+        17.4,
         17.3,
-        18.1,
         17.3
       ]
     }
