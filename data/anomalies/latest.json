@@ -1,12 +1,22 @@
 [
   {
-    "timestamp": "2026-08-15T16:35:11.761336+00:00",
+    "timestamp": "2026-08-15T16:50:12.073278+00:00",
+    "city": "Arusha",
+    "city_key": "arusha",
+    "field": "windspeed",
+    "value": 19.3,
+    "type": "statistical_anomaly",
+    "detail": "windspeed=19.3 z=3.00 (\u03bc=13.8 \u03c3=1.8)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-15T16:50:12.073278+00:00",
     "city": "Mwanza",
     "city_key": "mwanza",
     "field": "windspeed",
-    "value": 1.5,
+    "value": 1.6,
     "type": "statistical_anomaly",
-    "detail": "windspeed=1.5 z=2.71 (\u03bc=15.5 \u03c3=5.2)",
+    "detail": "windspeed=1.6 z=2.59 (\u03bc=15.4 \u03c3=5.3)",
     "severity": "medium"
   }
 ]
