@@ -1,12 +1,22 @@
 [
   {
-    "timestamp": "2026-08-15T15:50:15.066620+00:00",
+    "timestamp": "2026-08-15T16:05:10.468123+00:00",
+    "city": "Dodoma",
+    "city_key": "dodoma",
+    "field": "pressure",
+    "value": 1013.2,
+    "type": "statistical_anomaly",
+    "detail": "pressure=1013.2 z=2.52 (\u03bc=1018.2 \u03c3=2.0)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-08-15T16:05:10.468123+00:00",
     "city": "Mwanza",
     "city_key": "mwanza",
     "field": "windspeed",
-    "value": 0.7,
+    "value": 1.2,
     "type": "statistical_anomaly",
-    "detail": "windspeed=0.7 z=3.30 (\u03bc=15.8 \u03c3=4.6)",
+    "detail": "windspeed=1.2 z=3.02 (\u03bc=15.7 \u03c3=4.8)",
     "severity": "medium"
   }
 ]
