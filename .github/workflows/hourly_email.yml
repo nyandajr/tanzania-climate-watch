@@ -1,8 +1,14 @@
 name: Hourly Pipeline Summary Email
 
 on:
-  schedule:
-    - cron: "0 * * * *"   # top of every hour
+  # schedule disabled 2026-08-17: this only ever reported on `pipeline.yml`
+  # runs, which was itself disabled back on 2026-07-07 when the real pipeline
+  # moved to the VM's crontab -- so this had been silently emailing "0 runs,
+  # all succeeded" every hour for weeks with nothing real to report. To
+  # revert (or better, rewire it to summarize the VM's actual pushes
+  # instead): uncomment the line below.
+  # schedule:
+  #   - cron: "0 * * * *"   # top of every hour
   workflow_dispatch:
 
 jobs:
