@@ -2,7 +2,7 @@
   "dar_es_salaam": {
     "latitude": -6.783831,
     "longitude": 39.242424,
-    "generationtime_ms": 2.5610923767089844,
+    "generationtime_ms": 0.28526782989501953,
     "utc_offset_seconds": 10800,
     "timezone": "Africa/Dar_es_Salaam",
     "timezone_abbreviation": "GMT+3",
@@ -17,13 +17,13 @@
       "weathercode": "wmo code"
     },
     "current_weather": {
-      "time": "2026-09-16T07:15",
+      "time": "2026-09-16T07:30",
       "interval": 900,
-      "temperature": 23.5,
-      "windspeed": 9.2,
-      "winddirection": 169,
+      "temperature": 24.0,
+      "windspeed": 8.6,
+      "winddirection": 168,
       "is_day": 1,
-      "weathercode": 1
+      "weathercode": 2
     },
     "hourly_units": {
       "time": "iso8601",
@@ -1112,13 +1112,13 @@
     "meta": {
       "city": "Dar es Salaam",
       "city_key": "dar_es_salaam",
-      "fetched_at": "2026-09-16T04:20:03.528391+00:00"
+      "fetched_at": "2026-09-16T04:35:03.288649+00:00"
     }
   },
   "dodoma": {
     "latitude": -6.151142,
     "longitude": 35.714283,
-    "generationtime_ms": 0.3057718276977539,
+    "generationtime_ms": 0.1666545867919922,
     "utc_offset_seconds": 10800,
     "timezone": "Africa/Dar_es_Salaam",
     "timezone_abbreviation": "GMT+3",
@@ -1133,13 +1133,13 @@
       "weathercode": "wmo code"
     },
     "current_weather": {
-      "time": "2026-09-16T07:15",
+      "time": "2026-09-16T07:30",
       "interval": 900,
-      "temperature": 17.4,
-      "windspeed": 24.6,
-      "winddirection": 85,
+      "temperature": 17.8,
+      "windspeed": 25.8,
+      "winddirection": 86,
       "is_day": 1,
-      "weathercode": 1
+      "weathercode": 2
     },
     "hourly_units": {
       "time": "iso8601",
@@ -2228,13 +2228,13 @@
     "meta": {
       "city": "Dodoma",
       "city_key": "dodoma",
-      "fetched_at": "2026-09-16T04:20:04.136349+00:00"
+      "fetched_at": "2026-09-16T04:35:03.900850+00:00"
     }
   },
   "arusha": {
     "latitude": -3.4094903,
     "longitude": 36.69903,
-    "generationtime_ms": 0.33676624298095703,
+    "generationtime_ms": 0.30553340911865234,
     "utc_offset_seconds": 10800,
     "timezone": "Africa/Dar_es_Salaam",
     "timezone_abbreviation": "GMT+3",
@@ -2249,11 +2249,11 @@
       "weathercode": "wmo code"
     },
     "current_weather": {
-      "time": "2026-09-16T07:15",
+      "time": "2026-09-16T07:30",
       "interval": 900,
-      "temperature": 15.5,
-      "windspeed": 11.9,
-      "winddirection": 115,
+      "temperature": 15.6,
+      "windspeed": 12.7,
+      "winddirection": 113,
       "is_day": 1,
       "weathercode": 51
     },
@@ -3344,13 +3344,13 @@
     "meta": {
       "city": "Arusha",
       "city_key": "arusha",
-      "fetched_at": "2026-09-16T04:20:04.741068+00:00"
+      "fetched_at": "2026-09-16T04:35:04.511253+00:00"
     }
   },
   "mwanza": {
     "latitude": -2.4956064,
     "longitude": 32.930347,
-    "generationtime_ms": 0.18262863159179688,
+    "generationtime_ms": 0.28002262115478516,
     "utc_offset_seconds": 10800,
     "timezone": "Africa/Dar_es_Salaam",
     "timezone_abbreviation": "GMT+3",
@@ -3365,11 +3365,11 @@
       "weathercode": "wmo code"
     },
     "current_weather": {
-      "time": "2026-09-16T07:15",
+      "time": "2026-09-16T07:30",
       "interval": 900,
-      "temperature": 20.4,
-      "windspeed": 12.8,
-      "winddirection": 128,
+      "temperature": 20.9,
+      "windspeed": 13.2,
+      "winddirection": 130,
       "is_day": 1,
       "weathercode": 2
     },
@@ -4460,13 +4460,13 @@
     "meta": {
       "city": "Mwanza",
       "city_key": "mwanza",
-      "fetched_at": "2026-09-16T04:20:05.348315+00:00"
+      "fetched_at": "2026-09-16T04:35:05.124871+00:00"
     }
   },
   "zanzibar": {
     "latitude": -6.151142,
     "longitude": 39.24812,
-    "generationtime_ms": 0.1996755599975586,
+    "generationtime_ms": 0.3142356872558594,
     "utc_offset_seconds": 10800,
     "timezone": "Africa/Dar_es_Salaam",
     "timezone_abbreviation": "GMT+3",
@@ -4481,11 +4481,11 @@
       "weathercode": "wmo code"
     },
     "current_weather": {
-      "time": "2026-09-16T07:15",
+      "time": "2026-09-16T07:30",
       "interval": 900,
-      "temperature": 24.8,
-      "windspeed": 12.1,
-      "winddirection": 130,
+      "temperature": 25.1,
+      "windspeed": 13.6,
+      "winddirection": 132,
       "is_day": 1,
       "weathercode": 2
     },
@@ -5576,7 +5576,7 @@
     "meta": {
       "city": "Zanzibar",
       "city_key": "zanzibar",
-      "fetched_at": "2026-09-16T04:20:05.957519+00:00"
+      "fetched_at": "2026-09-16T04:35:05.737358+00:00"
     }
   }
 }
