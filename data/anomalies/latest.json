@@ -1,12 +1,32 @@
 [
   {
-    "timestamp": "2026-10-06T09:50:13.462226+00:00",
+    "timestamp": "2026-10-06T10:05:11.673067+00:00",
     "city": "Dar es Salaam",
     "city_key": "dar_es_salaam",
     "field": "windspeed",
-    "value": 18.0,
+    "value": 18.3,
     "type": "statistical_anomaly",
-    "detail": "windspeed=18.0 z=2.51 (\u03bc=10.8 \u03c3=2.9)",
+    "detail": "windspeed=18.3 z=2.50 (\u03bc=10.9 \u03c3=3.0)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-06T10:05:11.673067+00:00",
+    "city": "Zanzibar",
+    "city_key": "zanzibar",
+    "field": "humidity",
+    "value": 64.0,
+    "type": "statistical_anomaly",
+    "detail": "humidity=64.0 z=3.00 (\u03bc=82.3 \u03c3=6.1)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-06T10:05:11.673067+00:00",
+    "city": "Zanzibar",
+    "city_key": "zanzibar",
+    "field": "windspeed",
+    "value": 21.9,
+    "type": "statistical_anomaly",
+    "detail": "windspeed=21.9 z=2.56 (\u03bc=12.1 \u03c3=3.8)",
     "severity": "medium"
   }
 ]
