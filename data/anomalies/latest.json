@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "timestamp": "2026-10-15T21:05:26.796008+00:00",
+    "city": "Mwanza",
+    "city_key": "mwanza",
+    "field": "temperature",
+    "value": 20.7,
+    "type": "statistical_anomaly",
+    "detail": "temperature=20.7 z=2.52 (\u03bc=25.3 \u03c3=1.8)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-10-15T21:05:26.796008+00:00",
+    "city": "Mwanza",
+    "city_key": "mwanza",
+    "field": "windspeed",
+    "value": 22.1,
+    "type": "statistical_anomaly",
+    "detail": "windspeed=22.1 z=2.54 (\u03bc=11.0 \u03c3=4.4)",
+    "severity": "medium"
+  }
+]
