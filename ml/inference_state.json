@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:50:28.281976+00:00",
+  "generated_at": "2026-10-15T00:05:17.894677+00:00",
   "model": "Ridge Regression (sklearn)",
   "features": [
     "hour_sin",
@@ -23,9 +23,9 @@
     {
       "city": "Dodoma",
       "city_key": "dodoma",
-      "mae": 0.14776132303906547,
-      "data_points": 9205,
-      "next_hour_prediction": 18.894939604336223,
+      "mae": 0.14736790926515012,
+      "data_points": 9206,
+      "next_hour_prediction": 18.848691564589732,
       "model_type": "ridge_regression"
     },
     {
@@ -47,9 +47,9 @@
     {
       "city": "Zanzibar",
       "city_key": "zanzibar",
-      "mae": 0.12625410476186735,
-      "data_points": 9223,
-      "next_hour_prediction": 23.68292340876368,
+      "mae": 0.12628571941027383,
+      "data_points": 9224,
+      "next_hour_prediction": 23.618177609032237,
       "model_type": "ridge_regression"
     }
   ]
