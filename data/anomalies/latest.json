@@ -1,52 +1,32 @@
 [
   {
-    "timestamp": "2026-10-18T09:05:12.694146+00:00",
+    "timestamp": "2026-10-18T09:20:15.184591+00:00",
     "city": "Dodoma",
     "city_key": "dodoma",
     "field": "temperature",
-    "value": 29.3,
+    "value": 29.5,
     "type": "statistical_anomaly",
-    "detail": "temperature=29.3 z=3.12 (\u03bc=20.5 \u03c3=2.8)",
+    "detail": "temperature=29.5 z=3.00 (\u03bc=20.6 \u03c3=3.0)",
     "severity": "medium"
   },
   {
-    "timestamp": "2026-10-18T09:05:12.694146+00:00",
+    "timestamp": "2026-10-18T09:20:15.184591+00:00",
     "city": "Dodoma",
     "city_key": "dodoma",
     "field": "windspeed",
-    "value": 14.0,
+    "value": 13.5,
     "type": "statistical_anomaly",
-    "detail": "windspeed=14.0 z=2.95 (\u03bc=22.5 \u03c3=2.9)",
+    "detail": "windspeed=13.5 z=2.95 (\u03bc=22.4 \u03c3=3.0)",
     "severity": "medium"
   },
   {
-    "timestamp": "2026-10-18T09:05:12.694146+00:00",
+    "timestamp": "2026-10-18T09:20:15.184591+00:00",
     "city": "Arusha",
     "city_key": "arusha",
     "field": "temperature",
-    "value": 23.6,
+    "value": 24.1,
     "type": "statistical_anomaly",
-    "detail": "temperature=23.6 z=3.08 (\u03bc=17.8 \u03c3=1.9)",
-    "severity": "medium"
-  },
-  {
-    "timestamp": "2026-10-18T09:05:12.694146+00:00",
-    "city": "Mwanza",
-    "city_key": "mwanza",
-    "field": "humidity",
-    "value": 67.0,
-    "type": "statistical_anomaly",
-    "detail": "humidity=67.0 z=2.51 (\u03bc=88.8 \u03c3=8.7)",
-    "severity": "medium"
-  },
-  {
-    "timestamp": "2026-10-18T09:05:12.694146+00:00",
-    "city": "Zanzibar",
-    "city_key": "zanzibar",
-    "field": "humidity",
-    "value": 65.0,
-    "type": "statistical_anomaly",
-    "detail": "humidity=65.0 z=2.59 (\u03bc=81.6 \u03c3=6.4)",
+    "detail": "temperature=24.1 z=3.13 (\u03bc=17.9 \u03c3=2.0)",
     "severity": "medium"
   }
 ]
