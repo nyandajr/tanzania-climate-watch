@@ -2,11 +2,11 @@
   {
     "city_key": "dar_es_salaam",
     "city": "Dar es Salaam",
-    "predicted_at": "2026-10-26T12:20:10.266696+00:00",
+    "predicted_at": "2026-10-26T12:35:11.854722+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.11970211233549972,
-    "data_points": 10050,
-    "next_hour_prediction": 30.32204406543028,
+    "mae": 0.12018861680375392,
+    "data_points": 10051,
+    "next_hour_prediction": 31.134667874057314,
     "forecast_7day": {
       "dates": [
         "2026-10-26",
@@ -18,39 +18,39 @@
         "2026-11-01"
       ],
       "temp_max": [
-        31.6,
-        31.9,
-        30.0,
-        29.8,
-        30.1,
-        30.3,
+        32.2,
+        31.2,
+        30.8,
+        30.7,
+        30.6,
+        30.7,
         28.2
       ],
       "temp_min": [
         24.9,
-        24.5,
-        24.6,
-        25.1,
-        25.9,
-        24.4,
+        24.3,
+        24.0,
+        24.8,
+        25.8,
+        24.7,
         23.7
       ],
       "precipitation": [
-        3.0,
+        2.9,
         0.0,
-        1.9,
-        1.9,
-        2.7,
+        1.2,
+        1.0,
         2.2,
-        11.9
+        2.3,
+        6.6
       ],
       "windspeed_max": [
+        19.2,
         19.3,
-        19.5,
-        15.4,
-        14.9,
-        14.8,
-        17.2,
+        16.8,
+        15.5,
+        15.9,
+        18.6,
         15.6
       ]
     }
@@ -58,11 +58,11 @@
   {
     "city_key": "dodoma",
     "city": "Dodoma",
-    "predicted_at": "2026-10-26T12:20:10.596669+00:00",
+    "predicted_at": "2026-10-26T12:35:12.180311+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.1520884732828024,
-    "data_points": 10163,
-    "next_hour_prediction": 30.850714584443125,
+    "mae": 0.15186998104987603,
+    "data_points": 10164,
+    "next_hour_prediction": 30.26360540012278,
     "forecast_7day": {
       "dates": [
         "2026-10-26",
@@ -92,12 +92,12 @@
         19.2
       ],
       "precipitation": [
-        0.2,
         0.0,
         0.0,
         0.0,
         0.0,
         0.0,
+        0.3,
         1.8
       ],
       "windspeed_max": [
@@ -114,11 +114,11 @@
   {
     "city_key": "arusha",
     "city": "Arusha",
-    "predicted_at": "2026-10-26T12:20:10.901947+00:00",
+    "predicted_at": "2026-10-26T12:35:12.512370+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.16297683351652795,
-    "data_points": 10179,
-    "next_hour_prediction": 24.681111736413463,
+    "mae": 0.1632422102261633,
+    "data_points": 10180,
+    "next_hour_prediction": 24.00047202387469,
     "forecast_7day": {
       "dates": [
         "2026-10-26",
@@ -170,11 +170,11 @@
   {
     "city_key": "mwanza",
     "city": "Mwanza",
-    "predicted_at": "2026-10-26T12:20:11.360551+00:00",
+    "predicted_at": "2026-10-26T12:35:12.900857+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.20050599346883682,
-    "data_points": 10185,
-    "next_hour_prediction": 27.41326507769384,
+    "mae": 0.20049081974312927,
+    "data_points": 10186,
+    "next_hour_prediction": 27.297500196336685,
     "forecast_7day": {
       "dates": [
         "2026-10-26",
@@ -186,22 +186,22 @@
         "2026-11-01"
       ],
       "temp_max": [
-        26.6,
-        25.0,
-        25.5,
-        25.5,
+        28.5,
+        26.8,
+        24.6,
         24.7,
-        25.2,
+        26.3,
+        25.6,
         26.2
       ],
       "temp_min": [
         19.7,
         20.8,
-        19.3,
         19.4,
-        18.9,
+        19.7,
         18.8,
-        19.0
+        19.6,
+        18.3
       ],
       "precipitation": [
         0.4,
@@ -213,24 +213,24 @@
         15.3
       ],
       "windspeed_max": [
+        14.1,
+        18.6,
+        18.9,
+        12.4,
         13.9,
-        16.7,
-        16.9,
-        12.9,
-        16.1,
-        7.3,
-        9.8
+        8.5,
+        12.4
       ]
     }
   },
   {
     "city_key": "zanzibar",
     "city": "Zanzibar",
-    "predicted_at": "2026-10-26T12:20:11.683537+00:00",
+    "predicted_at": "2026-10-26T12:35:13.265737+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.12806539666429576,
-    "data_points": 10186,
-    "next_hour_prediction": 31.392826876717194,
+    "mae": 0.12814624135519515,
+    "data_points": 10187,
+    "next_hour_prediction": 30.980530335818298,
     "forecast_7day": {
       "dates": [
         "2026-10-26",
@@ -260,13 +260,13 @@
         23.3
       ],
       "precipitation": [
-        1.1,
-        0.4,
-        9.2,
-        2.0,
-        2.1,
-        2.4,
-        6.2
+        1.7,
+        1.3,
+        4.4,
+        1.4,
+        0.9,
+        1.8,
+        5.9
       ],
       "windspeed_max": [
         20.1,
