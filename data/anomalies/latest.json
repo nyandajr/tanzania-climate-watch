@@ -1,22 +1,32 @@
 [
   {
-    "timestamp": "2026-11-03T15:35:13.155894+00:00",
+    "timestamp": "2026-11-03T15:50:12.924482+00:00",
     "city": "Dodoma",
     "city_key": "dodoma",
     "field": "pressure",
     "value": 1009.7,
     "type": "statistical_anomaly",
-    "detail": "pressure=1009.7 z=2.85 (\u03bc=1015.2 \u03c3=1.9)",
+    "detail": "pressure=1009.7 z=2.71 (\u03bc=1015.1 \u03c3=2.0)",
     "severity": "medium"
   },
   {
-    "timestamp": "2026-11-03T15:35:13.155894+00:00",
+    "timestamp": "2026-11-03T15:50:12.924482+00:00",
+    "city": "Dodoma",
+    "city_key": "dodoma",
+    "field": "windspeed",
+    "value": 24.4,
+    "type": "statistical_anomaly",
+    "detail": "windspeed=24.4 z=2.70 (\u03bc=18.5 \u03c3=2.2)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-03T15:50:12.924482+00:00",
     "city": "Arusha",
     "city_key": "arusha",
     "field": "pressure",
     "value": 1011.8,
     "type": "statistical_anomaly",
-    "detail": "pressure=1011.8 z=2.65 (\u03bc=1017.1 \u03c3=2.0)",
+    "detail": "pressure=1011.8 z=2.54 (\u03bc=1017.0 \u03c3=2.1)",
     "severity": "medium"
   }
 ]
