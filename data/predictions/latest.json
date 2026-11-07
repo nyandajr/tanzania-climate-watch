@@ -2,11 +2,11 @@
   {
     "city_key": "dar_es_salaam",
     "city": "Dar es Salaam",
-    "predicted_at": "2026-11-07T12:35:11.360018+00:00",
+    "predicted_at": "2026-11-07T12:50:10.210130+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.11789669487752097,
-    "data_points": 11018,
-    "next_hour_prediction": 30.38587056937799,
+    "mae": 0.11783775150475019,
+    "data_points": 11019,
+    "next_hour_prediction": 30.185499246822786,
     "forecast_7day": {
       "dates": [
         "2026-11-07",
@@ -58,11 +58,11 @@
   {
     "city_key": "dodoma",
     "city": "Dodoma",
-    "predicted_at": "2026-11-07T12:35:11.704073+00:00",
+    "predicted_at": "2026-11-07T12:50:10.594889+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.17667160075989363,
-    "data_points": 11132,
-    "next_hour_prediction": 33.4473477446696,
+    "mae": 0.1764492680607177,
+    "data_points": 11133,
+    "next_hour_prediction": 33.27175243907554,
     "forecast_7day": {
       "dates": [
         "2026-11-07",
@@ -75,50 +75,50 @@
       ],
       "temp_max": [
         33.6,
-        33.9,
+        33.7,
         33.6,
-        33.2,
-        34.2,
-        29.2,
+        33.5,
+        34.3,
+        27.5,
         27.3
       ],
       "temp_min": [
         17.7,
-        19.4,
-        20.3,
-        19.9,
-        20.5,
-        19.3,
-        18.7
+        19.5,
+        20.4,
+        19.8,
+        20.2,
+        19.6,
+        18.9
       ],
       "precipitation": [
         0.0,
         0.0,
         0.0,
         0.1,
-        0.2,
-        18.5,
-        12.9
+        0.0,
+        12.8,
+        7.7
       ],
       "windspeed_max": [
         25.1,
-        25.3,
-        23.7,
-        23.8,
-        19.8,
-        11.5,
-        9.1
+        24.9,
+        21.7,
+        23.6,
+        20.6,
+        11.1,
+        9.8
       ]
     }
   },
   {
     "city_key": "arusha",
     "city": "Arusha",
-    "predicted_at": "2026-11-07T12:35:12.177049+00:00",
+    "predicted_at": "2026-11-07T12:50:11.009610+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.17501747050138095,
-    "data_points": 11146,
-    "next_hour_prediction": 27.852136578025892,
+    "mae": 0.17505205306080898,
+    "data_points": 11147,
+    "next_hour_prediction": 27.56683275809864,
     "forecast_7day": {
       "dates": [
         "2026-11-07",
@@ -170,11 +170,11 @@
   {
     "city_key": "mwanza",
     "city": "Mwanza",
-    "predicted_at": "2026-11-07T12:35:12.507277+00:00",
+    "predicted_at": "2026-11-07T12:50:11.389366+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.19774352918497715,
-    "data_points": 11154,
-    "next_hour_prediction": 25.087274007221744,
+    "mae": 0.19766156533251764,
+    "data_points": 11155,
+    "next_hour_prediction": 24.99487651952208,
     "forecast_7day": {
       "dates": [
         "2026-11-07",
@@ -226,11 +226,11 @@
   {
     "city_key": "zanzibar",
     "city": "Zanzibar",
-    "predicted_at": "2026-11-07T12:35:12.893494+00:00",
+    "predicted_at": "2026-11-07T12:50:11.767393+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.13877777105011652,
-    "data_points": 11156,
-    "next_hour_prediction": 30.750159341894026,
+    "mae": 0.13887233327549994,
+    "data_points": 11157,
+    "next_hour_prediction": 30.937572714747898,
     "forecast_7day": {
       "dates": [
         "2026-11-07",
@@ -242,39 +242,39 @@
         "2026-11-13"
       ],
       "temp_max": [
-        31.8,
         32.2,
-        32.5,
-        32.0,
-        32.9,
-        33.1,
+        31.4,
+        33.6,
+        32.8,
+        33.3,
+        32.6,
         32.9
       ],
       "temp_min": [
         23.4,
-        24.2,
+        25.0,
         24.6,
         24.0,
-        23.0,
-        24.0,
+        23.6,
+        24.4,
         24.7
       ],
       "precipitation": [
+        1.6,
+        2.5,
+        0.4,
         2.2,
-        2.7,
-        5.1,
-        3.4,
         0.6,
-        2.1,
-        1.2
+        1.8,
+        1.5
       ],
       "windspeed_max": [
-        23.1,
-        22.2,
-        17.7,
+        22.1,
+        19.6,
+        16.5,
+        18.4,
         18.8,
-        18.1,
-        17.2,
+        19.1,
         19.3
       ]
     }
