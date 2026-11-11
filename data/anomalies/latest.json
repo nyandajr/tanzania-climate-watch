@@ -1,52 +1,62 @@
 [
   {
-    "timestamp": "2026-11-11T07:50:13.380750+00:00",
+    "timestamp": "2026-11-11T08:05:12.489753+00:00",
     "city": "Dar es Salaam",
     "city_key": "dar_es_salaam",
     "field": "temperature",
-    "value": 31.2,
+    "value": 31.1,
     "type": "statistical_anomaly",
-    "detail": "temperature=31.2 z=2.83 (\u03bc=27.1 \u03c3=1.5)",
+    "detail": "temperature=31.1 z=2.64 (\u03bc=27.1 \u03c3=1.5)",
     "severity": "medium"
   },
   {
-    "timestamp": "2026-11-11T07:50:13.380750+00:00",
+    "timestamp": "2026-11-11T08:05:12.489753+00:00",
     "city": "Dodoma",
     "city_key": "dodoma",
     "field": "temperature",
-    "value": 29.3,
+    "value": 29.8,
     "type": "statistical_anomaly",
-    "detail": "temperature=29.3 z=2.82 (\u03bc=22.4 \u03c3=2.4)",
+    "detail": "temperature=29.8 z=2.91 (\u03bc=22.4 \u03c3=2.5)",
     "severity": "medium"
   },
   {
-    "timestamp": "2026-11-11T07:50:13.380750+00:00",
+    "timestamp": "2026-11-11T08:05:12.489753+00:00",
     "city": "Dodoma",
     "city_key": "dodoma",
     "field": "windspeed",
-    "value": 11.5,
+    "value": 10.6,
     "type": "statistical_anomaly",
-    "detail": "windspeed=11.5 z=2.84 (\u03bc=19.0 \u03c3=2.7)",
+    "detail": "windspeed=10.6 z=3.02 (\u03bc=18.9 \u03c3=2.7)",
     "severity": "medium"
   },
   {
-    "timestamp": "2026-11-11T07:50:13.380750+00:00",
+    "timestamp": "2026-11-11T08:05:12.489753+00:00",
     "city": "Arusha",
     "city_key": "arusha",
     "field": "temperature",
-    "value": 26.0,
+    "value": 26.4,
     "type": "statistical_anomaly",
-    "detail": "temperature=26.0 z=3.12 (\u03bc=19.3 \u03c3=2.1)",
+    "detail": "temperature=26.4 z=3.10 (\u03bc=19.4 \u03c3=2.3)",
     "severity": "medium"
   },
   {
-    "timestamp": "2026-11-11T07:50:13.380750+00:00",
+    "timestamp": "2026-11-11T08:05:12.489753+00:00",
+    "city": "Mwanza",
+    "city_key": "mwanza",
+    "field": "pressure",
+    "value": 1017.7,
+    "type": "statistical_anomaly",
+    "detail": "pressure=1017.7 z=2.71 (\u03bc=1014.5 \u03c3=1.2)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-11T08:05:12.489753+00:00",
     "city": "Zanzibar",
     "city_key": "zanzibar",
     "field": "temperature",
-    "value": 31.4,
+    "value": 31.5,
     "type": "statistical_anomaly",
-    "detail": "temperature=31.4 z=2.90 (\u03bc=26.2 \u03c3=1.8)",
+    "detail": "temperature=31.5 z=2.81 (\u03bc=26.3 \u03c3=1.9)",
     "severity": "medium"
   }
 ]
