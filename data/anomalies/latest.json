@@ -1,12 +1,22 @@
 [
   {
-    "timestamp": "2026-11-11T10:50:12.296395+00:00",
+    "timestamp": "2026-11-11T11:05:13.214526+00:00",
+    "city": "Arusha",
+    "city_key": "arusha",
+    "field": "humidity",
+    "value": 41.0,
+    "type": "statistical_anomaly",
+    "detail": "humidity=41.0 z=2.62 (\u03bc=74.6 \u03c3=12.8)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-11T11:05:13.214526+00:00",
     "city": "Zanzibar",
     "city_key": "zanzibar",
     "field": "humidity",
-    "value": 60.0,
+    "value": 59.0,
     "type": "statistical_anomaly",
-    "detail": "humidity=60.0 z=2.87 (\u03bc=82.6 \u03c3=7.9)",
+    "detail": "humidity=59.0 z=2.84 (\u03bc=82.4 \u03c3=8.2)",
     "severity": "medium"
   }
 ]
