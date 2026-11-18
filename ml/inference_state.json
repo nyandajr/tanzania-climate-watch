@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:20:10.919898+00:00",
+  "generated_at": "2026-11-18T21:35:12.756255+00:00",
   "model": "Ridge Regression (sklearn)",
   "features": [
     "hour_sin",
@@ -15,41 +15,41 @@
     {
       "city": "Dar es Salaam",
       "city_key": "dar_es_salaam",
-      "mae": 0.13102979945408452,
-      "data_points": 11812,
-      "next_hour_prediction": 26.620594278251566,
+      "mae": 0.13098842503701857,
+      "data_points": 11813,
+      "next_hour_prediction": 26.526899829189254,
       "model_type": "ridge_regression"
     },
     {
       "city": "Dodoma",
       "city_key": "dodoma",
-      "mae": 0.2123349665752337,
-      "data_points": 11927,
-      "next_hour_prediction": 21.392680551048826,
+      "mae": 0.21234116258680694,
+      "data_points": 11928,
+      "next_hour_prediction": 21.197629262085798,
       "model_type": "ridge_regression"
     },
     {
       "city": "Arusha",
       "city_key": "arusha",
-      "mae": 0.20140010582089798,
-      "data_points": 11940,
-      "next_hour_prediction": 18.619404366804154,
+      "mae": 0.2013852395095941,
+      "data_points": 11941,
+      "next_hour_prediction": 18.61906608569003,
       "model_type": "ridge_regression"
     },
     {
       "city": "Mwanza",
       "city_key": "mwanza",
-      "mae": 0.2007919557718661,
-      "data_points": 11950,
-      "next_hour_prediction": 21.624432839789748,
+      "mae": 0.20078287412340193,
+      "data_points": 11951,
+      "next_hour_prediction": 21.523928657433174,
       "model_type": "ridge_regression"
     },
     {
       "city": "Zanzibar",
       "city_key": "zanzibar",
-      "mae": 0.14420504879967905,
-      "data_points": 11959,
-      "next_hour_prediction": 25.539934534135188,
+      "mae": 0.1441671686909636,
+      "data_points": 11960,
+      "next_hour_prediction": 25.539917048282888,
       "model_type": "ridge_regression"
     }
   ]
