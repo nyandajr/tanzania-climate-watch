@@ -1,12 +1,22 @@
 [
   {
-    "timestamp": "2026-11-23T12:50:11.682864+00:00",
+    "timestamp": "2026-11-23T13:05:12.013376+00:00",
+    "city": "Arusha",
+    "city_key": "arusha",
+    "field": "humidity",
+    "value": 53.0,
+    "type": "statistical_anomaly",
+    "detail": "humidity=53.0 z=2.64 (\u03bc=88.0 \u03c3=13.3)",
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2026-11-23T13:05:12.013376+00:00",
     "city": "Arusha",
     "city_key": "arusha",
     "field": "windspeed",
-    "value": 17.2,
+    "value": 17.6,
     "type": "statistical_anomaly",
-    "detail": "windspeed=17.2 z=3.07 (\u03bc=9.7 \u03c3=2.4)",
+    "detail": "windspeed=17.6 z=3.04 (\u03bc=9.8 \u03c3=2.6)",
     "severity": "medium"
   }
 ]
