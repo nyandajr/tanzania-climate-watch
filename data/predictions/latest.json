@@ -2,41 +2,179 @@
   {
     "city_key": "dar_es_salaam",
     "city": "Dar es Salaam",
-    "predicted_at": "2026-11-23T04:36:39.279689+00:00",
+    "predicted_at": "2026-11-23T04:50:09.165421+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.12825402417532375,
-    "data_points": 12206,
-    "next_hour_prediction": 26.782767266949843,
-    "forecast_7day": {}
+    "mae": 0.1283582474524632,
+    "data_points": 12207,
+    "next_hour_prediction": 26.57324944045971,
+    "forecast_7day": {
+      "dates": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "temp_max": [
+        30.0,
+        30.3,
+        30.3,
+        31.0,
+        31.3,
+        31.4,
+        31.0
+      ],
+      "temp_min": [
+        25.4,
+        24.1,
+        24.4,
+        25.0,
+        25.8,
+        25.0,
+        25.7
+      ],
+      "precipitation": [
+        3.2,
+        5.7,
+        2.0,
+        2.1,
+        1.6,
+        3.2,
+        1.6
+      ],
+      "windspeed_max": [
+        15.3,
+        15.4,
+        14.9,
+        13.5,
+        14.6,
+        11.9,
+        13.2
+      ]
+    }
   },
   {
     "city_key": "dodoma",
     "city": "Dodoma",
-    "predicted_at": "2026-11-23T04:36:39.683272+00:00",
+    "predicted_at": "2026-11-23T04:50:09.598166+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.2161384131782222,
-    "data_points": 12323,
-    "next_hour_prediction": 21.187787404039817,
-    "forecast_7day": {}
+    "mae": 0.2163907245085884,
+    "data_points": 12324,
+    "next_hour_prediction": 22.274907398266265,
+    "forecast_7day": {
+      "dates": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "temp_max": [
+        32.6,
+        33.0,
+        33.3,
+        33.3,
+        32.5,
+        33.1,
+        33.5
+      ],
+      "temp_min": [
+        19.7,
+        20.3,
+        19.7,
+        20.2,
+        20.2,
+        19.1,
+        19.3
+      ],
+      "precipitation": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "windspeed_max": [
+        24.6,
+        25.6,
+        23.6,
+        24.0,
+        23.5,
+        26.5,
+        23.2
+      ]
+    }
   },
   {
     "city_key": "arusha",
     "city": "Arusha",
-    "predicted_at": "2026-11-23T04:36:40.164019+00:00",
+    "predicted_at": "2026-11-23T04:50:10.068403+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.19754949241344003,
-    "data_points": 12337,
-    "next_hour_prediction": 18.449930408158856,
-    "forecast_7day": {}
+    "mae": 0.1974145230003274,
+    "data_points": 12338,
+    "next_hour_prediction": 18.751238033539487,
+    "forecast_7day": {
+      "dates": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "temp_max": [
+        25.8,
+        25.7,
+        26.8,
+        26.3,
+        26.9,
+        25.3,
+        26.6
+      ],
+      "temp_min": [
+        17.3,
+        17.6,
+        17.0,
+        17.6,
+        17.9,
+        17.8,
+        17.5
+      ],
+      "precipitation": [
+        4.0,
+        0.6,
+        0.0,
+        2.2,
+        2.7,
+        8.1,
+        2.4
+      ],
+      "windspeed_max": [
+        18.5,
+        16.3,
+        17.0,
+        14.5,
+        14.1,
+        12.0,
+        10.7
+      ]
+    }
   },
   {
     "city_key": "mwanza",
     "city": "Mwanza",
-    "predicted_at": "2026-11-23T04:36:40.564458+00:00",
+    "predicted_at": "2026-11-23T04:50:10.472049+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.20140977782416053,
-    "data_points": 12350,
-    "next_hour_prediction": 21.683169154261204,
+    "mae": 0.2013566635676997,
+    "data_points": 12351,
+    "next_hour_prediction": 22.178924874161087,
     "forecast_7day": {
       "dates": [
         "2026-11-23",
@@ -88,11 +226,11 @@
   {
     "city_key": "zanzibar",
     "city": "Zanzibar",
-    "predicted_at": "2026-11-23T04:36:40.960094+00:00",
+    "predicted_at": "2026-11-23T04:50:10.878601+00:00",
     "model_type": "ridge_regression",
-    "mae": 0.14199110032878373,
-    "data_points": 12360,
-    "next_hour_prediction": 26.78240818613752,
+    "mae": 0.1419449214485173,
+    "data_points": 12361,
+    "next_hour_prediction": 27.17850061296649,
     "forecast_7day": {
       "dates": [
         "2026-11-23",
